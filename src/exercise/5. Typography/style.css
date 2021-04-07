@@ -1,0 +1,50 @@
+/*TODO: Specify font-family*/
+
+p {
+  color: inherit;
+  font-family: serif;
+  font-size: 3rem;
+}
+
+/* Add a custom font from google fonts*/
+.custom-font {
+  font-family: "Roboto";
+}
+
+/* Add text formatting*/
+
+.custom-font.bold {
+  font-weight: 700;
+}
+
+.custom-font.italic {
+  font-style: italic;
+}
+
+.custom-font.underline {
+  font-style: underline;
+}
+
+/* Align text using text-align declaration*/
+
+.custom-font.left {
+  text-align: left;
+}
+
+.custom-font.center {
+  text-align: center;
+}
+
+.custom-font.right {
+  text-align: right;
+}
+
+/*Transform text using text-transform decleration*/
+
+.custom-font.uppercase {
+  text-transform: uppercase;
+}
+
+.custom-font.capitalize {
+  text-transform: capitalize;
+}
