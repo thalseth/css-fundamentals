@@ -5,6 +5,8 @@ import Selectors from "./exercise/2. Selectors/html";
 import Units from "./exercise/3. Units/html";
 import MediaQueries from "./exercise/4. Media Queries/html";
 import Typography from "./exercise/5. Typography/html";
+import Debugging from "./exercise/6. Debugging in Browser/html";
+import Tips from "./exercise/7. Tips and tricks/html";
 
 function App() {
   return (
@@ -19,11 +21,13 @@ function App() {
         <li>Debugging in the Browser</li>
         <li>Tips and tricks</li>
       </ol>
-      {/* <Anatomy /> */}
+      <Anatomy />
       {/* <Selectors/> */}
       {/* <Units /> */}
       {/* <MediaQueries /> */}
-      <Typography />
+      {/* <Typography /> */}
+      {/* <Debugging /> */}
+      {/* <Tips /> */}
     </div>
   );
 }
