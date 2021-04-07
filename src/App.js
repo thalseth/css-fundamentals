@@ -1,23 +1,31 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import Anatomy from "./exercise/1. Anatomy of a Style Rule/html";
+import Selectors from "./exercise/2. Selectors/html";
+// import { Router, Link } from "@reach/router";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <h1>CSS Fundamentals</h1>
+      <ol>
+        <li>
+          Anatomy of a Style Rule
+          {/* <Link to="anatomy">Anatomy of a Style Rule</Link> */}
+        </li>
+        <li>
+          {/* <Link to="selectors">Selectors</Link> */}
+          Selectors
+        </li>
+        <li>Units</li>
+        <li>Media Queries</li>
+        <li>Typography</li>
+        <li>Debugging in the Browser</li>
+        <li>Tips and tricks</li>
+      </ol>
+      {/* <Router> */}
+      {/* <Anatomy path="anatomy" /> */}
+      <Selectors path="selectors" />
+      {/* </Router> */}
     </div>
   );
 }
