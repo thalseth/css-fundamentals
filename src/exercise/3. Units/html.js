@@ -4,46 +4,40 @@ import "./style.css";
 export function Example() {
   return (
     <>
-      <h1>Selectors</h1>
-      <div className="card">
-        <p>Styled using basic html tag as selector</p>
-        <p className="apple">Styled using custom class as selector</p>
-      </div>
-      <div className="card">
-        <h2>Combinators</h2>
-        {/*  TODO: Create a navigation with multiple anchors and a paragraph with a single anchor. */}
-        <nav>
-          <a href="">Home</a> - <a href="">Shop</a>
-        </nav>
-
-        <br />
-        <br />
-        <p>
-          Hello World! You might be interested in reading{" "}
-          <a href="">an article</a>!
-        </p>
-      </div>
+      <h1>Units</h1>
 
       <div className="card">
-        <h2>Direct child</h2>
-        {/* TODO: Add a list with a sublist */}
-        <ul class="shopping-list">
-          <li>Salt</li>
-          <li>Pepper</li>
-          <li>
-            Fruits
-            <ul>
-              <li>Apple</li>
-              <li>Banana</li>
-            </ul>
-          </li>
-        </ul>
+        <h2>Px</h2>
+        <div className="box-px" />
       </div>
-
       <div className="card">
-        <h2>Pseudo-classes</h2>
-        {/* TODO: Add button here and append the new class selector */}
-        <button className="button">Hover over me!</button>
+        <h2>Ems</h2>
+        {/* Relative to the font-size */}
+        <div className="box-em">
+          <div className="box-em-child" />
+        </div>
+      </div>
+      <div className="card">
+        <h2>Rems</h2>
+        <article className="article">
+          <h1>What's a staple? The list expands.</h1>
+          <h2>Jan. 1, 1991</h2>
+          <p>
+            Conventional agricultural wisdom holds that only a handful of crop
+            species -- as few as 7 and no more than 30, depending on different
+            assessments -- account for most of the plant food consumed by
+            humanity. But a new study says more than 100 species and possibly as
+            many as 200 are important food sources.
+          </p>
+        </article>
+      </div>
+      <div className="card">
+        <h2>Percentage</h2>
+        {/* Create a box with a child element. The child element should use
+          percentage width and height of the parent box. */}
+        <div className="box-percentage">
+          <div className="box-percentage-child" />
+        </div>
       </div>
     </>
   );

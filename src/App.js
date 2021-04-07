@@ -1,6 +1,8 @@
+/* eslint-disable no-unused-vars */
 import "./App.css";
 import Anatomy from "./exercise/1. Anatomy of a Style Rule/html";
 import Selectors from "./exercise/2. Selectors/html";
+import Units from "./exercise/3. Units/html";
 // import { Router, Link } from "@reach/router";
 
 function App() {
@@ -23,8 +25,9 @@ function App() {
         <li>Tips and tricks</li>
       </ol>
       {/* <Router> */}
-      {/* <Anatomy path="anatomy" /> */}
-      <Selectors path="selectors" />
+      {/* <Anatomy */}
+      {/* <Selectors /> */}
+      <Units />
       {/* </Router> */}
     </div>
   );
