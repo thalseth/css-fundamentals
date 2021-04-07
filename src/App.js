@@ -1,7 +1,7 @@
 /* eslint-disable no-unused-vars */
 import "./App.css";
-// import Intro from "./Intro";
-import Anatomy from "./final/1. Anatomy of a Style Rule/html";
+import Intro from "./Intro";
+// import Anatomy from "./final/1. Anatomy of a Style Rule/html";
 // import Selectors from "./final/2. Selectors/html";
 // import Units from "./final/3. Units/html";
 // import MediaQueries from "./final/4. Media Queries/html";
@@ -12,8 +12,8 @@ import Anatomy from "./final/1. Anatomy of a Style Rule/html";
 function App() {
   return (
     <div className="container">
-      {/* <Intro /> */}
-      <Anatomy />
+      <Intro />
+      {/* <Anatomy /> */}
       {/* <Selectors /> */}
       {/* <Units /> */}
       {/* <MediaQueries /> */}

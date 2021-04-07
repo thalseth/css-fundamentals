@@ -10,9 +10,8 @@ function Intro() {
           <li>Torleif Halseth</li>
           <li>Developer</li>
         </ul>
-        <h3>Agenda</h3>
+        <h3>Topics</h3>
         <ol>
-          <li>Intro</li>
           <li>Anatomy of a Style Rule</li>
           <li>Selectors</li>
           <li>Units</li>

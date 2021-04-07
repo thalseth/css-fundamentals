@@ -69,7 +69,7 @@ export function Example() {
         <ul>
           <li>
             {" "}
-            Properties that should be avoided on block level
+            Properties that should be avoided on component level
             <ul>
               <li>
                 <code>float</code>, <code>position</code>, <code>width</code>,{" "}
