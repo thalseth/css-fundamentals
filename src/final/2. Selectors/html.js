@@ -10,13 +10,10 @@ export function Example() {
         <p className="apple">Styled using custom class as selector</p>
       </div>
       <div className="card">
-        <h2>Combinators</h2>
-        {/*  TODO: Create a navigation with multiple anchors and a paragraph with a single anchor. */}
+        <h2>Descendant combinator</h2>
         <nav>
           <a href="">Home</a> - <a href="">Shop</a>
         </nav>
-
-        <br />
         <br />
         <p>
           Hello World! You might be interested in reading{" "}
@@ -25,7 +22,7 @@ export function Example() {
       </div>
 
       <div className="card">
-        <h2>Direct child</h2>
+        <h2>Child combinator (>)</h2>
         {/* TODO: Add a list with a sublist */}
         <ul class="shopping-list">
           <li>Salt</li>

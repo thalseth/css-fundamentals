@@ -3,12 +3,6 @@ p {
   font-size: 2rem;
 }
 
-.apple {
-  color: white;
-  padding: 24px;
-  background: #ce0303;
-}
-
 /* 
 1. Rule - collection of declarations
 2. Selector - target specific elements on the page

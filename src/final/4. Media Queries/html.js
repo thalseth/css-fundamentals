@@ -12,7 +12,7 @@ export function Example() {
       </div>
 
       <div className="card">
-        <h2>Change / hide content using utility class</h2>
+        <h2>Change / hide content using a utility class</h2>
         <p className="mobile-only">Show me on mobile!</p>
         <p className="desktop-only">Show me on desktop!</p>
       </div>

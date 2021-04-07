@@ -12,11 +12,14 @@ h2 {
   margin-bottom: 4rem;
 }
 
+.container {
+  max-width: 960px;
+  margin: 40px auto;
+}
+
 .card {
-  padding: 38px 38px 52px;
+  padding: 38px 38px 42px;
   background: hsl(225deg, 25%, 97%);
   border-radius: 8px;
   margin: 40px 20px;
-  max-width: 960px;
-  margin: 40px auto;
 }

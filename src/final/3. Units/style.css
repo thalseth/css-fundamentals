@@ -7,23 +7,28 @@
   background-color: orange;
 }
 
-/* Task: Create a box with font-size and a child box with dimentions using em unit */
+/* TASK: Create a box with font-size and a child box with dimentions using em unit */
 
 .box-em {
   font-size: 100px;
 }
 
 .box-em-child {
-  height: 0.5em;
   width: 0.5em;
+  height: 0.5em;
   background: orange;
 }
 
-/* Task create article using rems */
+/* .box-em h3 {
+  font-size: 24px;
+  margin-bottom: 2em;
+} */
+
+/* TASK: create article using rems */
 
 html {
-  /* Fake user setting */
-  font-size: 16px;
+  /* Overriding user setting */
+  font-size: 24px;
 }
 
 .article h1 {
@@ -41,7 +46,7 @@ html {
   font-size: 1rem;
 }
 
-/* Task: Create a box selector with custom dimentions and a child with percentagages */
+/* TASK: Create a box selector with custom dimentions and a child with percentagages */
 
 .box-percentage {
   width: 250px;
