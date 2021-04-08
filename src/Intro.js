@@ -1,7 +1,7 @@
 function Intro() {
   return (
     <article>
-      <h1>CSS Fundamentals</h1>
+      <h1>The joy of CSS | Fundamentals</h1>
       <div className="card">
         <h2>Intro</h2>
 

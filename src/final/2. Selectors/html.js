@@ -9,6 +9,7 @@ export function Example() {
         <p>Styled using basic html tag as selector</p>
         <p className="apple">Styled using custom class as selector</p>
       </div>
+
       <div className="card">
         <h2>Descendant combinator</h2>
         <nav>

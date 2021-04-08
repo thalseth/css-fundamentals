@@ -19,7 +19,8 @@ p {
 }
 
 .custom-font.underline {
-  font-style: underline;
+  /* font-style: underline; */
+  text-decoration: underline;
 }
 
 /* TODO: Align text using text-align declaration*/
