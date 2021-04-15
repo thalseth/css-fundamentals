@@ -1,9 +1,9 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
-import "./style.css";
+import styled from "styled-components";
 
 export function Example() {
   return (
-    <>
+    <Styled>
       <h1>Units</h1>
 
       <div className="card">
@@ -40,8 +40,72 @@ export function Example() {
           <div className="box-percentage-child" />
         </div>
       </div>
-    </>
+    </Styled>
   );
 }
+
+const Styled = styled.div`
+  /* Task: Create a box with px values */
+
+  .box-px {
+    width: 50px;
+    height: 50px;
+    padding: 8px;
+    background-color: orange;
+  }
+
+  /* TASK: Create a box with font-size and a child box with dimentions using em unit */
+
+  .box-em {
+    font-size: 100px;
+  }
+
+  .box-em-child {
+    width: 0.5em;
+    height: 0.5em;
+    background: orange;
+  }
+
+  /* .box-em h3 {
+  font-size: 24px;
+  margin-bottom: 2em;
+} */
+
+  /* TASK: create article using rems */
+
+  html {
+    /* Overriding user setting */
+    font-size: 24px;
+  }
+
+  .article h1 {
+    font-size: 2rem;
+    margin: 0;
+  }
+
+  .article h2 {
+    font-size: 1.25rem;
+    margin: 0;
+    color: gray;
+  }
+
+  .article p {
+    font-size: 1rem;
+  }
+
+  /* TASK: Create a box selector with custom dimentions and a child with percentagages */
+
+  .box-percentage {
+    width: 250px;
+    height: 250px;
+    background-color: pink;
+  }
+
+  .box-percentage-child {
+    width: 50%;
+    height: 75%;
+    background-color: black;
+  }
+`;
 
 export default Example;
