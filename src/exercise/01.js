@@ -48,7 +48,8 @@ export function Example() {
 const Styled = styled.div`
   /* TODO: Give the paragraph a unique color and font size */
 
-  /* TODO: Add a new class selector with custom style */
+  /* TODO: Add a new class selector with custom style. */
+  /* 🐨 A .apple selector is already attached to a paragraph above. */
 
   /* Combinators */
   /* TODO: Add custom anchor style to the links inside nav */

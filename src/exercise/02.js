@@ -42,15 +42,21 @@ export function Example() {
 
 const Styled = styled.div`
   /* TASK: Create a box with px values */
+  /* 🐨 A .box-px selector is attached to a div element above. */
+  
   /* TASK: Create a box with font-size and a child box with dimentions using em unit */
+  /* 🐨 A .box-em & .box-em-child selector is attached to a div element above. */
+
   /* TASK: Create article using rems and override the base font size defined on html selector to see the changes*/
+  /* 🐨 A .article selector is attached to a article element above. */
 
   html {
-    /* Overriding user setting */
+    /* Overriding user setting to test dynamic rem values defined in article*/
     font-size: 24px;
   }
 
   /* TASK: Create a box selector with custom dimentions and a child with percentagages */
+  /* 🐨 A .box-percentage & .box-percentage-child selector is attached to a div element above. */
 `;
 
 export default Example;

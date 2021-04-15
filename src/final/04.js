@@ -35,18 +35,22 @@ export function Example() {
 }
 
 const Styled = styled.div`
-  /* TODO: Specify font-family*/
+  /* TODO: Specify font-family on paragraph (p) element */
   p {
     font-family: serif;
     font-size: 3rem;
   }
 
-  /* TODO: Add a custom font from google fonts*/
+  /* TODO: Add a custom font from google fonts */
+  /* 🐨 You can import a new font into /public/index.html or use the existing font "Roboto" */
+  /* 🐨 A .custom-font selector is attached to paragraphs above */
+
   .custom-font {
     font-family: "Roboto";
   }
 
-  /* TODO: Add text formatting*/
+  /* TODO: Add text formatting (font-weight, font-style and text-decoration. */
+  /* 🐨 You can user existing selectors to add these styles (.bold, .italic and .underline). */
   .custom-font.bold {
     font-weight: 700;
   }
@@ -56,11 +60,11 @@ const Styled = styled.div`
   }
 
   .custom-font.underline {
-    /* font-style: underline; */
     text-decoration: underline;
   }
 
   /* TODO: Align text using text-align declaration*/
+  /* 🐨 You can user existing selectors to add these styles (.left, .center and .right). */
   .custom-font.left {
     text-align: left;
   }
@@ -74,6 +78,7 @@ const Styled = styled.div`
   }
 
   /* TODO: Transform text using text-transform decleration*/
+  /* 🐨 You can user existing selectors to add these styles (.uppercase and .capitalize). */
   .custom-font.uppercase {
     text-transform: uppercase;
   }

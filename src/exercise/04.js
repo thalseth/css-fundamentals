@@ -39,6 +39,7 @@ const Styled = styled.div`
 
   /* TODO: Add a custom font from google fonts */
   /* 🐨 You can import a new font into /public/index.html or use the existing font "Roboto" */
+  /* 🐨 A .custom-font selector is attached to paragraphs above */
 
   /* TODO: Add text formatting (font-weight, font-style and text-decoration. */
   /* 🐨 You can user existing selectors to add these styles (.bold, .italic and .underline). */

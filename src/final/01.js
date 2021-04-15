@@ -47,14 +47,13 @@ export function Example() {
 
 const Styled = styled.div`
   /* TODO: Give the paragraph a unique color and font size */
-
   p {
     color: blue;
     font-size: 1rem;
   }
 
-  /* TODO: Add a new class selector with custom style */
-
+  /* TODO: Add a new class selector with custom style. */
+  /* 🐨 A .apple selector is already attatched to a paragraph above. */
   .apple {
     color: white;
     padding: 24px;
@@ -63,14 +62,13 @@ const Styled = styled.div`
 
   /* Combinators */
   /* TODO: Add custom anchor style to the links inside nav */
-
   nav a {
     color: red;
     font-weight: bold;
   }
 
   /* Direct child */
-  /* TODO: Add fancy border to list items */
+  /* TODO: Add dotted border to list items*/
   li {
     margin-bottom: 8px;
   }

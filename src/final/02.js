@@ -41,8 +41,8 @@ export function Example() {
 }
 
 const Styled = styled.div`
-  /* Task: Create a box with px values */
-
+  /* TASK: Create a box with px values */
+  /* 🐨 A .box-px selector is attached to a div element above. */
   .box-px {
     width: 50px;
     height: 50px;
@@ -51,7 +51,7 @@ const Styled = styled.div`
   }
 
   /* TASK: Create a box with font-size and a child box with dimentions using em unit */
-
+  /* 🐨 A .box-em & .box-em-child selector is attached to a div element above. */
   .box-em {
     font-size: 100px;
   }
@@ -62,17 +62,10 @@ const Styled = styled.div`
     background: orange;
   }
 
-  /* .box-em h3 {
-  font-size: 24px;
-  margin-bottom: 2em;
-} */
-
-  /* TASK: create article using rems */
-
-  html {
-    /* Overriding user setting */
-    font-size: 24px;
-  }
+  /* TASK: Create article using rems and override the base font size defined on html selector to see the changes*/
+  /* 🐨 A .article selector is attached to a article element above. */
+  
+  
 
   .article h1 {
     font-size: 2rem;
@@ -89,8 +82,13 @@ const Styled = styled.div`
     font-size: 1rem;
   }
 
-  /* TASK: Create a box selector with custom dimentions and a child with percentagages */
+  html {
+    /* Overriding user setting to test dynamic rem values defined in article*/
+    font-size: 24px;
+  }
 
+  /* TASK: Create a box selector with custom dimentions and a child with percentagages */
+  /* 🐨 A .box-percentage & .box-percentage-child selector is attached to a div element above. */
   .box-percentage {
     width: 250px;
     height: 250px;

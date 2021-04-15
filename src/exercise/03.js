@@ -20,7 +20,9 @@ export function Example() {
 
 const Styled = styled.div`
   /* TODO: Change color from red to blue on larger screens */
+  
   /* TODO: Create a new class selector to swap content using display: none; decleration for mobile and desktop */
+  /* 🐨 A .desktop-only & .mobile-only selector is attached to a div elements above. */
 `;
 
 export default Example;
