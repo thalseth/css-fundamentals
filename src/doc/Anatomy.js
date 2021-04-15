@@ -3,8 +3,8 @@ import styled from "styled-components";
 export function Example() {
   return (
     <Styled>
-      <h1>Anatomy of the Style Rule</h1>
-      <p>TODO: Add exercise</p>
+      <h1>Anatomy of a Style Rule</h1>
+      <p>Check out the <a href="https://developer.mozilla.org/en-US/docs/Learn/CSS/First_steps/Getting_started">getting started article</a> on MDN</p>
     </Styled>
   );
 }
@@ -12,7 +12,6 @@ export function Example() {
 const Styled = styled.div`
   p {
     color: black;
-    font-size: 2rem;
   }
 
   /*  */
